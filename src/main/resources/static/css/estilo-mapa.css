@@ -1,0 +1,113 @@
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+    display: none !important;
+}
+html,
+body {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative !important;
+}
+
+footer {
+    position: relative !important;
+}
+
+#mapa {
+    height: 100%;
+}
+
+#form-descricao-do-foco {
+    position: absolute;
+    top: 300px;
+    width: 75%;
+    max-width: 350px;
+    margin: auto auto auto 10px;
+}
+
+.label-descricao-do-foco {
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.button-descricao-do-foco-ok {
+    width: 16%;
+}
+
+.button-descricao-do-foco-x {
+    width: 13%;
+}
+
+.input-descricao-do-foco {
+    max-width: 68%;
+    display: inline-block !important;
+}
+
+#form-geolocalizacao {
+    position: absolute;
+    top: 200px;
+    width: 84%;
+    max-width: 450px;
+    margin: auto auto auto 10px;
+}
+
+.recarregar-gps {
+    background-color: whitesmoke;
+}
+
+.btn-recarregar {
+    margin-left: 30%;
+    margin-bottom: 3% !important;
+}
+
+.mensagem-gps {
+    padding-left: 5px;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+.pac-container {
+    font-family: Roboto, sans-serif;
+}
+
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0 11px;
+}
+
+#type-selector label {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
